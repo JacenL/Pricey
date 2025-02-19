@@ -29,14 +29,17 @@ def predict_price(product_description):
 
     return first_line
 
-descriptions = [
+"""descriptions = [
     "an office mouse",
     "a gaming laptop with an RTX 4090",
     "an Apple iPhone 14 Pro Max",
     "a wireless Bluetooth headset",
     "a 55-inch 4K Smart TV"
-]
+]"""
 
-for desc in descriptions:
-    predicted_price = predict_price(desc)
+while True:
+    description = input("Enter a product description (type 'exit' to quit): ")
+    if description.lower() == "exit":
+        break
+    predicted_price = predict_price(description)
     print(predicted_price)
