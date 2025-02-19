@@ -3,3 +3,5 @@ dataset/
 bertPriceModel/
 bertPriceEstimator/
 gptModel/
+cached_lm_GPT2Tokenizer_128_gpttraining.txt/
+cached_lm_GPT2Tokenizer_128_gpttraining.txt.lock/
