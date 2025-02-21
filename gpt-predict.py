@@ -27,7 +27,7 @@ def predict_price(product_description):
     prediction = tokenizer.decode(output[0], skip_special_tokens=True)
     first_line = prediction.split("\n")[0]
 
-    return first_line
+    return prediction
 
 """descriptions = [
     "an office mouse",
